@@ -1,0 +1,67 @@
+@function rem($px) {
+	@return $px / $font-size-base + 0rem;
+}
+
+@function truncation($width) {
+	@return $width - 20px;
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+}
+
+@mixin transform($value) {
+	-webkit-transform: $value;
+	transform: $value;
+}
+
+@mixin transition($value) {
+	transition: $value;
+}
+
+@mixin flex-cros {
+	display: flex;
+}
+
+@mixin gradient($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+  /* Firefox 3.6+ */
+  /* Safari 4+, Chrome 1+ */
+  /* Safari 5.1+, Chrome 10+ */
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient($from, $to);
+}
+
+
+@mixin anim_pulse($color) {
+	@-webkit-keyframes pulse {
+		0% {
+			-webkit-box-shadow: 0 0 0 0 $color;
+		}
+		70% {
+			-webkit-box-shadow: 0 0 0 10px $color;
+		}
+		100% {
+			-webkit-box-shadow: 0 0 0 0 $color;
+		}
+	}
+	@keyframes pulse {
+		0% {
+			box-shadow: 0 0 0 0 $color;
+		}
+		70% {
+			box-shadow: 0 0 0 10px $color;
+		}
+		100% {
+			box-shadow: 0 0 0 0 $color;
+		}
+	}
+}
+
+@mixin placeholder {
+	::-webkit-input-placeholder {@content}
+	:-moz-placeholder           {@content}
+	::-moz-placeholder          {@content}
+	:-ms-input-placeholder      {@content}  
+}

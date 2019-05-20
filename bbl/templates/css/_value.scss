@@ -1,0 +1,47 @@
+/* для сетки bootstrap*/
+$gutter-size: 10px;
+$min-width-640: 750px;
+$min-width-992: 970px;
+$min-width-1280: 1170px;
+
+/* цвета*/
+$color-base-text: #323B3D; /* основной текст*/
+$color-link-text:#0000ff;
+$color-active-link-text:#8E5919;
+$color-green:  #096E88;
+$color-green-light: #0B98AB;
+$color-grey-dark: #6F655E;
+$color-grey-medium:#261501;
+$color-brown-light:#8E5919;
+$color-peach: #FFE0C4;
+$color-blue: #0000ff;
+$color-orange: #ffd740;
+$color-orange-transparency:rgba(243, 126, 48, 0.3);
+$color-black: #252525;
+$color-bg: #ffffff;
+$color-bg-grey: #363636;
+$color-bg-dot: #d5d1cb;
+
+
+/* шрифты*/
+$font-base:  'intro_regularregular';
+/* $font-title:  'courier_new_cyrregular';*/
+$font-title: 'IBM Plex Sans', sans-serif;
+$font-size-base: 18px; 
+
+
+/* container*/
+$baseContainer: 1200px; /* максимальное разрешение*/
+$lgContainer: 1280px;
+$lgContainer2:1024px;
+$mdContainer: 992px;
+$smContainer: 640px;
+$xsContainer: 320px;
+
+$header-height: 165px;
+$header-height-lgContainer: 120px;
+$header-height-smContainer: 70px;
+
+/* @mixin border($col: $color1) {*/
+	/* 	border: 1px $col solid;*/
+/* }*/

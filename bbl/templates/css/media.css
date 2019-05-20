@@ -1,0 +1,821 @@
+
+
+@media screen and (max-width: 1626px) {
+	.container {
+		max-width: 1426px;
+	}
+	header.fix .header__logo img{
+
+	}
+	header .container .header__menu .header__list .header__item {
+		margin: 0 30px 0 0;
+	}
+	.block__gift .block__gift__slogan{
+
+		background-position: bottom right 100px;
+	}
+	.block__gift .form .form__wrap {
+		width: 80%;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list {
+		margin: 2rem 0 0rem 5%;
+	}
+	.modelsSlider.container{
+		max-width:80%;
+	}
+	.block__models .modelsSlider .slick-prev{
+		left:-130px;
+	} 
+	.block__models .modelsSlider .slick-next{
+		right:-130px;
+	} 
+	.block__details .block__details__form .form__wrap{
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+	.container {
+		max-width: 1290px;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item .mainSlider__item__txtBlock{
+		width:80%;
+	}
+	.header__list, .header__menu, header .container .header__phone{
+		width:100%;
+		text-align: center;
+		display: block;
+	}
+	header .container .header__menu .header__list .header__item {
+		margin: 0 15px;
+	}
+	header .container .header__phone{
+		margin-top:20px;
+	}
+	.block__mainSlider, .mainSlider__item {
+		height: 760px;
+	}
+	header.fix .header__logo {
+		width: 20%;
+		max-width: 200px;
+		
+	}
+	header.fix .header__logo img{
+		width:100%;
+	}
+	header.fix .header__menu {
+		width:60%;
+
+	}
+	header.fix .container .header__phone{
+		width: 20%;
+	}
+	header.fix .container .header__menu .header__list .header__item{
+		font-size: 0.4rem;
+		margin: 0 5px;
+	}
+	header.fix .container .header__phone {
+		font-size: 0.7rem;
+		margin-top:0;
+	}
+	header.fix .container {
+		max-width: 90%;
+	}
+	header.fix .container .header__logo a {
+		display: inline-block;
+		margin: 4% 0;
+	}
+	.main__page #page {
+		padding-top: 760px;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list .block__gift__advantage__item {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		font-size: 0.8rem;
+		padding-left: 110px;
+	}
+	.block__gift .block__gift__slogan {
+		background-position: bottom right;
+		background-size: auto 98%;
+		padding-left: 5%;
+	}
+	.block__gift .block__gift__slogan .block__gift__slogan__txt {
+
+		font-size: 2.5rem;
+
+		line-height: 3rem;
+
+		width: 97%;
+
+		bottom: 4.5rem;
+
+	}
+	.block__gift .form:before {
+		left: -100px;
+	}
+	.block__gift .form .form__wrap {
+		width: calc(100% - 15px);
+	}
+	.block__advants .block__advants__item .block__advants__txt {
+		bottom: -0.6rem;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+		letter-spacing: 2px;
+		padding: 0 8px;
+	}
+	.block__advants .block__advants__item {
+		height: 480px;
+	}
+	.block__advants .block__advants__item:nth-child(2):after {
+		left: calc(100% - 45px);
+		top: 25px;
+	}
+	.block__advants .block__advants__item:nth-child(2):before {
+		left: -95px;
+		bottom: 100px;
+	}
+	.block__models .modelsSlider .modelsSlider__item {
+		background-position: top center;
+		height: 515px;
+	}
+	.block__models .modelsSlider .slick-prev{
+		left:-115px;
+	} 
+	.block__models .modelsSlider .slick-next{
+		right:-115px;
+	} 
+	.block__details .block__details__face {
+		background-position: bottom left;
+		background-size:auto 100%;
+	}
+	.block__details .block__details__content .block__details__title {
+		font-size: 2.8rem;
+		line-height: 3rem;
+		margin-bottom: 3rem;
+	}
+	.block__details .block__details__content .block__details__title:before {
+		bottom: -50px;
+		z-index: 1;
+		right: -150px;
+	}
+	.block__details .block__details__content .block__details__txt{
+		font-size:0.9rem;
+		line-height: 1.2rem;
+	}
+	.block__details .block__details__content .block__details__txt p {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__txt {
+		font-size: 0.8rem;
+		line-height: 1.2rem;
+	}
+	.block__how {
+		padding: 2rem 0;
+	}
+	.block__how .block__how__title{
+		font-size: 2.8rem;
+		line-height: 3rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li {
+		font-size: 0.85rem;
+	}
+	.block__contacts {
+		padding: 2rem 0 1.2rem;
+	}
+	footer .co, footer .webdom {
+		margin: 0.5rem 0;
+	}
+	.commonForm .form__title{
+		font-size:0.8rem;
+	}
+	.block__gift .form {
+		margin-top: 40px;
+	}
+	.commonForm .form__agree {  
+		position: relative;
+		padding-left:50px;
+	}
+	.commonForm .form__agree input[type="checkbox"]{
+		position: absolute;
+		left:0;
+		top:50%;
+		margin-top:-16px;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item {
+		padding: 0 0.5rem;
+
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__txt{
+		text-align:left;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item {
+		font-size: 0.9rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li::before {
+		font-size: 4rem;
+		height: 65px;
+		line-height: 82px;
+		padding-top: 20px;
+		margin-bottom: 0.4rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li {
+		margin-bottom: 2rem;
+		width: 45%;
+		margin: 0 0.3rem 2rem;
+	}
+	.block__contacts .block__contacts__soc {
+		margin: 0.8rem 0;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item {
+		margin: 0.2rem 0;
+		font-size: 0.8rem;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="mail"], .block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="tel"] {
+		font-size: 1.1rem;
+	}
+	.block__contacts .block__contacts__fb {
+		margin: 1.3rem 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		max-width: 942px;
+	}
+	.block__mainSlider .block__mainSlider__decor {
+		
+		width: 120px;
+		
+		height: 120px;
+		
+		background-size: 450px auto;
+	}
+	.block__mainSlider:after {
+		top: 85px;
+		left: 43px;
+		height: calc(100% - 128px);
+		width: 4px;
+	}
+	.block__mainSlider, .mainSlider__item {
+		height: 580px;
+	}
+	header .container .header__menu .header__list .header__item {
+		font-size: 0.5rem;
+	}
+	.header__list, .header__menu, header .container .header__phone {
+		width: 90%;
+		margin:0 auto;
+		text-align: center;
+		display: block;
+	}
+	.block__mainSlider:before {
+		top: 43px;
+		left: 85px;  
+		width: calc(100%/2 - 280px);  
+	}
+
+	.mainSlider:after {
+		bottom: 85px;
+		right: 43px;
+		height: calc(100% - 128px);
+		width: 4px;
+	}
+	.mainSlider:before {
+		height: 4px;
+		bottom: 43px;
+		right: 70px;
+		width: calc(100% - 115px);
+	}
+	.block__mainSlider__decor_add {
+		top: 43px;
+		right: 45px;    
+		width: calc(100%/2 - 240px);
+		height: 4px;
+	}
+	header .container .header__logo {
+		margin: 10px 0 25px;
+		width: 30%;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item .mainSlider__item__txtBlock .txtMain {
+		font-size: 1.7rem;
+		line-height:1.5rem;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item .mainSlider__item__txtBlock .txtSecondary{
+		display:none;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item {
+		line-height: 750px;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item .btn {
+		margin: 30px auto 0;
+	}
+	.main__page #page {
+		padding-top: 580px;
+	}
+	.block__gift .block__gift__slogan {
+		background-position: bottom left;
+		background-size: auto 100%;
+		padding-left: 0;
+		width:100%;
+		height:auto;
+		position:relative;
+		float:none;
+		border-bottom: 2px solid #363636;
+		padding-bottom: 1rem;
+		padding-top: 1.2rem;
+	}
+	.block__gift {
+		padding: 0 1.2rem0;
+	}
+	.block__gift .block__gift__slogan .block__gift__slogan__txt {
+		font-size: 2.8rem;
+		line-height: 2.5rem;
+		color:#363636;
+		width: 100%;
+		position:relative;
+		bottom:0;
+		/* text-align:center; */
+		padding-left: 30%;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list .block__gift__advantage__item {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-size: 0.6rem;
+		padding-left: 110px;
+	}
+	.block__gift .block__gift__advantage {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list .block__gift__advantage__item {
+		padding-top: 20px;
+		padding-bottom: 50px;
+		font-size: 0.6rem;
+		padding-top: 100px;
+		text-align:center;
+		width:45%;
+		display:inline-block;
+		padding-left:0;
+		vertical-align:top;
+		line-height:0.8rem;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list .block__gift__advantage__item:before{
+		top:0;
+		margin-top:0;
+		left:50%;
+		margin-left: -40px;
+	}
+	.block__gift .form{
+		width:100%;
+		float:none;
+		margin-left:0;
+		padding: 100px 50px 50px;
+		margin-top:100px;
+		margin-bottom: 0;
+	}
+	.block__gift .form:before{
+		left:50%;
+		margin-left: -70px;
+		-webkit-transform: rotate(90deg); // разворот элемента для разных бразуеров
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		top:0;
+	}
+	.commonForm .form__title{
+		text-align:center;
+	}
+	.commonForm .btn {
+		margin: 40px auto 0;
+	}
+	.block__advants .block__advants__item .block__advants__txt {
+		bottom: -0.4rem;
+		font-size: 0.8rem;
+		line-height: 1rem;
+	}
+	.block__advants .block__advants__item {
+		height: 250px;
+	}
+	.block__advants .block__advants__item:nth-child(2):before, .block__advants .block__advants__item:nth-child(2):after {
+		content: "";
+		background-image: url(/templates/img/sprite.png);
+		background-repeat: no-repeat;
+		display: block;
+		width: 43px;
+		height: 80px;
+		background-position: 0 -213px;
+		background-position: 0 -72px;
+		background-size:270px auto;
+	}
+	.block__advants .block__advants__item:nth-child(2):before {
+		left: -35px;
+		bottom: 50px;
+	}
+	.block__advants .block__advants__item:nth-child(2):after {
+		left: calc(100% - 10px);
+		top: 15px;
+	}
+	.block__models .modelsSlider {
+		margin-bottom: 0;
+	}
+	.block__details .block__details__content {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+	.block__details .block__details__content .block__details__title {
+		font-size: 2.8rem;
+		line-height: 2.5rem;
+		color: #363636;
+		width: 100%;
+		position: relative;
+		bottom: 0;
+		padding-left: 0;
+		/* text-align:center; */
+	} 
+	.block__details .block__details__face {
+		display:none;
+	}
+	.block__details .block__details__content .block__details__title:before {
+		bottom: -50px;
+		z-index: 1;
+		right: 5%;
+	}
+	.block__details .block__details__form {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-top: 150px;
+		padding: 100px 50px 50px;
+		position: relative;
+	}
+	.block__details .block__details__form:after {
+		left: 50%;
+		margin-left: -85px;
+		-webkit-transform: rotate(90deg);
+		// разворот элемента для разных бразуеров:
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		top: 0;
+		background-image: url(/templates/img/sprite.png);
+		background-repeat: no-repeat;
+		content: "";
+		display: block;
+		width: 152px;
+		height: 285px;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		margin-top: -130px;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: -650px 0;
+	} 
+	.block__details .block__details__content .block__details__txt:before{
+		
+		display:none;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__img {
+		width: 100px;
+		height: 150px;
+		background-size: cover;
+		background-position: center center;
+		margin: 0 auto 1rem;
+		display: block;
+		text-align: center;
+	}
+	.block__reviews {
+		padding: 1.5rem 0;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__name {
+		margin: 0 0 1rem;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__name:after {
+		width: 2px;
+		height: 30px;
+		background-color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 100%;
+		margin-top: 1rem;
+		margin-left: -1px;
+	}
+	.block__reviews .reviewsSlider .reviewsSlider__item .reviewsSlider__item__txt {
+		font-size: 0.7rem;
+		line-height: 1rem;
+		margin-top: 3rem;
+	}
+	.block__how {
+		padding: 1.2rem 0;
+	}
+	.block__how .block__how__title {
+		font-size: 2.8rem;
+		line-height: 2.5rem;
+		margin-bottom:2rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item {
+		font-size: 0.6rem;
+		
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item a{
+		padding:30px 90px 30px 20px
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content {
+		padding: 1.2rem 0 1rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li {
+		font-size: 0.6rem;
+		width:42%;
+		margin: 0 0.3rem 1rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li::before {
+		font-size: 3rem;
+		height: 60px;
+		line-height: 82px;
+		padding-top: 20px;
+		margin-bottom: 0.4rem;
+	}
+	.block__pictures .picturesSlider .picturesSlider__item img {
+		max-height: 360px;
+		width: auto;
+	}
+	.block__contacts {
+		padding: 1rem 0 ;
+	}
+	.block__contacts .block__contacts__soc .link__soc {
+		margin: 0 0.5rem;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="mail"], .block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="tel"] {
+		font-size: 0.9rem;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item {
+		font-size: 0.6rem;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item a.btn {
+		margin: 1rem auto;
+	}
+	footer .co, footer .webdom {
+		margin: 0.3rem 0;
+		font-size:0.4rem;
+	}
+	header .header__menu{
+		display:block;
+	}
+	header.fix .header__menu{
+		display:none;
+	}
+	header.fix .container .header__burger {
+		display:block;
+	}
+
+	header.fix .container .header__phone {
+		width: 40%;
+	}
+	header.fix .container .header__logo a {
+		display: inline-block;
+		margin: 7% 0;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.container {
+		max-width: 728px;
+	}
+	header .container .header__menu .header__list,
+	header .header__menu{
+		display:none;
+	}
+	header{
+		background-color: #363636;
+	}
+	header .container {
+		max-width: 90%;
+	}
+	header .header__menu {
+		width: 60%;
+	}
+	header .container .header__logo a {
+		display: inline-block;
+		margin: 7% 0;
+	}
+	header .header__logo img {
+		width: 100%;
+	}
+	header .container .header__phone {
+		width: 40%;
+	}
+	header .container .header__phone a{
+		font-size:0.6rem;
+	}
+	header .container .header__burger {
+		display: block;
+	}
+	header .container .header__phone{
+		
+		font-size: 0.7rem;
+		
+		margin-top: 0;
+	}
+	header .header__logo {
+		width: 20%;
+		max-width: 200px;
+	}
+	header .container {
+		align-items: center;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item {
+		line-height: 300px;
+	}
+
+	.block__mainSlider, .mainSlider__item {
+		height: 300px;
+		top: 0;
+		position: relative;
+	}
+	.main__page #page {
+		
+		padding-top: 98px;
+	}
+	.block__mainSlider .block__mainSlider__decor, .mainSlider:before, .block__mainSlider:after,.mainSlider:after{
+		display:none;
+	}
+
+	.block__mainSlider .mainSlider .mainSlider__item .mainSlider__item__txtBlock .txtMain {
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+	.block__gift .block__gift__slogan {
+		background-image:none;
+		border-bottom: 0;
+	}
+	.block__gift .block__gift__slogan .block__gift__slogan__txt {
+		font-size: 2rem;
+		line-height: 2.1rem;
+		text-align:center;
+		padding: 0 15px;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list .block__gift__advantage__item{
+		width:100%;
+	}
+	.block__advants .block__advants__item{
+		width:90%;
+		margin:0 auto 1rem;
+	}
+	.block__advants .block__advants__item .block__advants__txt {
+		bottom: -0.4rem;
+		font-size: 0.9rem;
+		line-height: 1rem;
+	}
+	.block__advants .block__advants__item:nth-child(2):before, .block__advants .block__advants__item:nth-child(2):after{
+		display:none;
+	}
+	.block__details .block__details__content .block__details__title,
+	.block__how .block__how__title{
+		font-size: 2rem;
+		line-height: 2.1rem;
+	}
+	.block__details .block__details__content .block__details__title:before {
+		bottom: -70px;
+		z-index: 1;
+		right: -7%;
+	}
+	.block__details .block__details__content .block__details__txt {
+		font-size: 0.8rem;
+		line-height: 1.1rem;
+		text-align:left;
+		position: relative;
+		z-index: 3;
+		
+	}
+	.block__details .block__details__content .block__details__txt p {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.block__details .block__details__form:before {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.block__details .block__details__form {
+
+		padding: 100px 20px 20px;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item a {
+		padding: 10px;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item {
+		font-size: 0.5rem;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs__content .block__how__tab__content__item .block__how__list li {
+		font-size: 0.5rem;
+		width: 42%;
+		margin: 0 0.3rem 0.8rem;
+	}
+	.block__pictures .picturesSlider .picturesSlider__item img {
+		max-height: 160px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.container {
+		max-width:440px;
+	}
+	.block__mainSlider .mainSlider .mainSlider__item .mainSlider__item__txtBlock .txtMain {
+		font-size: 1rem;
+		line-height: 1.1rem;
+	}
+	.block__gift .block__gift__slogan .block__gift__slogan__txt, .block__details .block__details__content .block__details__title,
+	.block__details .block__details__content .block__details__title, .block__how .block__how__title {
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+		font-weight:500;
+		text-transform: uppercase;
+	}
+	.block__gift .block__gift__advantage .block__gift__advantage__list {
+		margin: 0.5rem 0 0;
+	}
+	.block__gift .form:before {
+		margin-left: -74px; 
+	}
+	.block__gift .form {  
+		padding: 100px 20px 20px;
+	}
+
+	.commonForm .form__title,
+	{
+		font-size: 0.6rem;
+		line-height:0.9rem;
+		margin-bottom: 1rem;
+	}
+	.commonForm .form__field input[type="text"] {
+		height: 1.5rem;
+		line-height: 1.5rem;
+		font-size: 0.6rem;
+	}
+	.commonForm .form__agree {
+		font-size: 0.5rem;
+		font-weight:500;
+	}
+	.commonForm .btn {
+		width:100%;
+		line-height: 60px;
+		min-width: 0px;
+	}
+	.block__details .block__details__content .block__details__title span{
+		
+	}
+	.block__details .block__details__content .block__details__title {
+		
+		margin-bottom: 1rem;
+	}
+	.block__details .block__details__form{
+		background-color:#d5d1cb;
+		margin-bottom:0.5rem;
+	}
+	.block__details .block__details__form:before{
+		display:none;
+	}
+	.block__how .block__how__tabsWrap .block__how__tabs .block__how__tab__item{
+		width:100%;
+		margin:0.2rem 0;
+	}
+	.block__contacts .block__contacts__soc {
+		margin: 0 0 0.5rem;
+	}
+	.block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="mail"], .block__contacts .block__contacts__fb .block__contacts__fb__item a[href^="tel"],
+	{
+		font-size: 0.7rem;
+	}
+	.block__contacts .block__contacts__fb {
+		margin: 1.3rem 0 0;
+	}
+	footer {
+		margin: 0.4rem 0 0.3rem;
+	}
+	.menu__icon_burger {
+		width: 30px;
+	}
+	header .container .header__logo {
+		margin: 10px 0 25px;
+		width: 40%;
+	}
+	header .container .header__phone {
+		font-size: 0.3rem;
+		text-indent:-99999px;
+		background: url('/templates/img/svg/phone.svg') no-repeat center center transparent;
+		background-size:100% 100%;
+		display:block;
+		width:35%;
+		height:35px;
+	}
+}
